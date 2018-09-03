@@ -1,15 +1,15 @@
 {
   "name": "whoops",
   "version": "1.0.0",
-  "description": "",
+  "description": "WhoopsJs is a javascript library that provides simple and flexible push notification popups",
   "private": true,
   "scripts": {
     "build": "webpack",
     "watch": "webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["webpack", "babel", "es6"],
+  "author": "Ekpoto Liberty Bernard",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.0.0",
