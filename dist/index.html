@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Getting Started</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+    <h1>Hello</h1>
+
+    <div class="whoops-container" role="alert" aria-hidden="false">
+      <div class="whoops default">
+        <p>Welcome to Whoops.js!</p>
+        <button type="button" class="whoops-btn whoops-btn--close">Close</button>  
+      </div>
+    </div>
+
+    <script src="js/main.min.js"></script>
+    <script type="text/javascript">
+      var whoops = new Whoops({message: "hello"});
+      console.log(whoops);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+.whoops-container {
+	position: absolute; /* Fallback */
+	position: fixed;
+	bottom: 30px;
+	left: 30px;
+	width: calc(100% - 60px);
+	max-width: 400px;
+	transform: translateX(-150%);
+	transition: transform 1s;
+	z-index: 100; /* */
+}
+
+.whoops-container[aria-hidden="false"] {
+	transform: translateX(0%);
+}
+
+.whoops {
+	background: #fff;
+	padding: 10px 15px 0; /* No bottom padding because the buttons have a margin-bottom */
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 4px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);
+}
+
+.whoops.default {
+	border-color: #AAAAAA;
+}
+
+.whoops.success {
+	border-color: #2ECC40;
+}
+.whoops.warning {
+	border-color: #FF851B;
+}
+.whoops.danger {
+	border-color: #FF4136;
+}
+
+.whoops-btn {
+	background: rgb(240,240,240);
+	padding: 5px 10px;
+	border: 0;
+	border-radius: 4px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.whoops-btn--custom {
+	background: rgb(50,50,50);
+	color: #fff;
+}
+
+
+.whoops-btn:hover,
+.whoops-btn:focus {
+	outline: none;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);
+}
+
+
+
+
+
