@@ -1,2 +1,2 @@
 # whoops
-WhoopsJs a Javascript library, it provides simple and flexible popups
+WhoopsJs a Javascript library that provides simple and flexible push notification popups
